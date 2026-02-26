@@ -55,11 +55,12 @@
 #### **1.8 Use-case діаграма**
 
 Діаграма відображає основні сценарії взаємодії користувачів та адміністратора з системою.  
-
+![Скрін 1](/assets/labs/lab-1/screen-1.png)
 
 #### **1.9 ER-діаграма даних**
 
 Логічна структура бази даних, що описує взаємозв'язки між користувачами, предметами та процесом оренди.  
+![Скрін 2](/assets/labs/lab-1/screen-2.png)
 
 
 ### **2 РЕАЛІЗАЦІЯ ІНТЕРФЕЙСУ ТА ФАЙЛОВА СТРУКТУРА**
@@ -77,6 +78,8 @@
 #### **2.2 Фрагменти коду**
 
 **Адаптивна сітка карток (CSS Grid):**
+![Скрін 3](/assets/labs/lab-1/screen-3.png)
+![Скрін 4](/assets/labs/lab-1/screen-4.png)
 ```css
 .grid-gallery {
     display: grid;
@@ -99,6 +102,7 @@
 ```
 
 **Реалізація Header з бургер-меню (HTML/JS):**
+![Скрін 5](/assets/labs/lab-1/screen-5.png)
 ```html
 <header class="header">
     <div class="container header-container">
@@ -151,6 +155,11 @@ document.addEventListener('DOMContentLoaded', () => {
 [feature/navigation] 8644e35 Додано навігацію та адаптивне бургер-меню
 [feature/content] 6d41cda Додано контент: сітку карток, футер та адаптивність
 ```
+
+#### **2.4 Посилання на проєкт**
+
+* **GitHub Репозиторій:** [https://github.com/senyasaysmeow/library-of-things](https://github.com/senyasaysmeow/library-of-things)
+* **GitHub Pages (Живий сайт):** [https://senyasaysmeow.github.io/library-of-things/](https://senyasaysmeow.github.io/library-of-things/)
 
 ### **ВИСНОВКИ**
 
