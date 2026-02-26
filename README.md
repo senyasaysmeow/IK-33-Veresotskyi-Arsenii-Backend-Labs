@@ -37,6 +37,10 @@ pnpm build
 pnpm preview
 ```
 
+## Подяки
+
+Репозиторій базується на шаблоні [IO-35_appRECORD-StepanovOleksandr-FIOT-2025](https://github.com/pliffdax/IO-35_appRECORD-StepanovOleksandr-FIOT-2025).
+
 ## Ліцензія
 
 MIT
