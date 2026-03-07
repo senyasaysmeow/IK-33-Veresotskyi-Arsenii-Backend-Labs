@@ -2,13 +2,14 @@
   import "../app.css";
   import { config, performerTitleLine } from "$lib/site/config";
   import { page } from "$app/state";
-  import { resolve } from "$app/paths";
+  import { base, resolve } from "$app/paths";
   import { onMount, type Snippet } from "svelte";
 
   let { children }: { children: Snippet } = $props();
 
   const authorHref = "https://t.me/senyasaysmeow";
   const homeHref = resolve("/");
+  const profilePhotoHref = `${base}/students/profile.jpg`;
   const labHref = (slug: string) => resolve(`/lab/${slug}` as `/lab/${string}`);
 
   onMount(() => {
@@ -35,6 +36,10 @@
       {/if}
 
       <div class="cover-performer">{performerTitleLine(config.student)}</div>
+    </div>
+
+    <div class="cover-photo">
+      <img src={profilePhotoHref} alt="Arsenii Veresotskyi" />
     </div>
   </section>
 
